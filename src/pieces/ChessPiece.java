@@ -1,4 +1,4 @@
 package pieces;
 
-public class ChessPiece {
+public abstract class ChessPiece {
 }
