@@ -1,7 +1,5 @@
 package application;
 
-import board.Board;
-import board.Position;
 import chesss.ChessException;
 import chesss.ChessMatch;
 import chesss.ChessPiece;
@@ -22,7 +20,7 @@ public class Program {
         List<ChessPiece> captured = new ArrayList<>();
 
         while (true){
-            try {
+           try {
                 UI.clearScreen();
                 UI.printMatch(chessMatch,captured);
                 System.out.println();
@@ -52,17 +50,6 @@ public class Program {
                 System.out.println(e.getMessage());
                 sc.nextLine();
             }
-
         }
-
-
-
-
-
-
-
-
-
-
+      }
     }
-}
